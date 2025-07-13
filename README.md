@@ -21,8 +21,6 @@ Renomeia o arquivo **~/.config/wofi/config-menu-wifi** para **~/.config/wofi/con
 
 $ mv -i ~/.config/wofi/.config-menu-wifi ~/.config/wofi/config
 
-$ mv -i ~/.config/wofi/style-menu-wifi.css ~/.config/wofi/style.css
-
 **Como Root:**
 
  mv -i usr /

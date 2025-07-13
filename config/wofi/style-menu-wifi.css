@@ -1,0 +1,48 @@
+/* ~/.config/wofi/style.css */
+
+window {
+  background-color: #11121D;
+  color: #FFFFFF;
+  font-family: "Hack Nerd Font Medium";
+  font-size: 10pt;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#input {
+  background-color: #444b6a;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+#entry {
+  padding: 8px 0;
+  color: #787c99;
+}
+
+#entry:selected {
+  color: #FFFFFF;
+  background-color: #444b6a;
+}
+
+#inner-box {
+  padding: 8px 12px;
+  background-color: #11121D;
+}
+
+#outer-box {
+  background-color: #11121D;
+}
+
+#scroll {
+  margin: 0;
+  padding: 0;
+}
+
+#img {
+  margin-right: 10px;
+  min-height: 30px;
+  min-width: 30px;
+}
+

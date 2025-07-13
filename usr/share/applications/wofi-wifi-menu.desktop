@@ -1,0 +1,40 @@
+[Desktop Entry]
+Type=Application
+
+Name=Wi-Fi Menu
+Name[pt_BR]=Menu Wi-Fi (Wofi)
+Name[es]=Menú Wi-Fi
+Name[fr]=Menu Wi-Fi
+
+Comment=Easily connect to Wi-Fi networks.
+Comment[pt_BR]=Conecte-se facilmente a redes Wi-Fi.
+Comment[es]=Conéctese fácilmente a redes Wi-Fi.
+Comment[fr]=Connectez-vous facilement aux réseaux Wi-Fi.
+
+# Exec=bash -c '/usr/local/bin/wofi-wifi-menu.sh ; sleep 30'
+
+Exec=/usr/local/bin/wofi-wifi-menu.sh
+
+
+Icon=network-wireless
+
+# Terminal=true
+
+Terminal=false
+
+Categories=Network;Utility;
+
+# Palavras-chave para facilitar a busca no menu
+
+Keywords=Wi-Fi;Network;Internet;Wireless;Connection;wofi;
+Keywords[pt_BR]=Wi-Fi;Rede;Internet;Sem fio;Conexão;wofi;
+Keywords[es]=Wi-Fi;Red;Internet;Inalámbrica;Conexión;wofi;
+Keywords[fr]=Wi-Fi;Réseau;Internet;Sans fil;Connexion;wofi;
+
+
+# Opcional: Se quiser que o script rode apenas em ambientes gráficos.
+
+# OnlyShowIn=GNOME;KDE;XFCE;LXQt;Cinnamon;MATE;
+
+OnlyShowIn=sway;labwc;
+

@@ -1,7 +1,8 @@
 # wofi wifi menu
+
 Gerencie rede wifi pelo Wofi.
 
-![Screenshot of rofi-wifi-menu](usr/share/doc/wofi-wifi/wofi-wifi-menu.png)
+![Screenshot of wofi-wifi-menu](usr/share/doc/wofi-wifi/wofi-wifi-menu.png)
 
 
 **Instalação**
@@ -28,4 +29,4 @@ $ mv -i ~/.config/wofi/style-menu-wifi.css ~/.config/wofi/style.css
 
 **Como usar:**
 
-Buscar no Wofi por wifi
+Buscar no Wofi por wifi.

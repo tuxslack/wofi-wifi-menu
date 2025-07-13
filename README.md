@@ -21,6 +21,7 @@ Renomeia o arquivo **~/.config/wofi/config-menu-wifi** para **~/.config/wofi/con
 
 $ mv -i ~/.config/wofi/.config-menu-wifi ~/.config/wofi/config
 
+
 **Como Root:**
 
  mv -i usr /
@@ -28,3 +29,7 @@ $ mv -i ~/.config/wofi/.config-menu-wifi ~/.config/wofi/config
 **Como usar:**
 
 Buscar no Wofi por wifi.
+
+ou
+
+$ wofi-wifi-menu.sh
